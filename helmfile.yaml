@@ -1,0 +1,8 @@
+helmDefaults:
+  atomic: true
+  wait: true
+
+helmfiles:
+  #  - path: applications/gitlab-runner/helmfile.yaml
+  #  - path: applications/ingress/helmfile.yaml
+  - path: applications/cert-manager/helmfile.yaml
